@@ -1,35 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SteamMarketApi\\SteamMarketApi.FeedHostedService\\SteamMarketApi.FeedHostedService.csproj": {}
+    "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.FeedHostedService/SteamMarketApi.FeedHostedService.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SteamMarketApi\\SteamMarketApi.FeedHostedService\\SteamMarketApi.FeedHostedService.csproj": {
+    "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.FeedHostedService/SteamMarketApi.FeedHostedService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.FeedHostedService\\SteamMarketApi.FeedHostedService.csproj",
+        "projectUniqueName": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.FeedHostedService/SteamMarketApi.FeedHostedService.csproj",
         "projectName": "SteamMarketApi.FeedHostedService",
-        "projectPath": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.FeedHostedService\\SteamMarketApi.FeedHostedService.csproj",
-        "packagesPath": "C:\\Users\\rave9\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.FeedHostedService\\obj\\",
+        "projectPath": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.FeedHostedService/SteamMarketApi.FeedHostedService.csproj",
+        "packagesPath": "/Users/excalib/.nuget/packages/",
+        "outputPath": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.FeedHostedService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rave9\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/excalib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://artifactory.akbars.tech/artifactory/api/nuget/v3/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Projects\\SteamMarketApi\\SteamMarketApi.Web\\SteamMarketApi.Web.csproj": {
-                "projectPath": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.Web\\SteamMarketApi.Web.csproj"
+              "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.Web/SteamMarketApi.Web.csproj": {
+                "projectPath": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.Web/SteamMarketApi.Web.csproj"
               }
             }
           }
@@ -88,30 +85,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.407/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\SteamMarketApi\\SteamMarketApi.Web\\SteamMarketApi.Web.csproj": {
+    "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.Web/SteamMarketApi.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.Web\\SteamMarketApi.Web.csproj",
+        "projectUniqueName": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.Web/SteamMarketApi.Web.csproj",
         "projectName": "SteamMarketApi.Web",
-        "projectPath": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.Web\\SteamMarketApi.Web.csproj",
-        "packagesPath": "C:\\Users\\rave9\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SteamMarketApi\\SteamMarketApi.Web\\obj\\",
+        "projectPath": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.Web/SteamMarketApi.Web.csproj",
+        "packagesPath": "/Users/excalib/.nuget/packages/",
+        "outputPath": "/Users/excalib/Desktop/projects/SteamMarketApi/SteamMarketApi.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rave9\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/excalib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://artifactory.akbars.tech/artifactory/api/nuget/v3/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -136,6 +130,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -180,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.407/RuntimeIdentifierGraph.json"
         }
       }
     }

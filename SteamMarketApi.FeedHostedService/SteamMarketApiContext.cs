@@ -26,7 +26,7 @@ namespace SteamMarketApi.FeedHostedService
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=SteamMarketApi;User Id=postgres;Password=123;");
+                optionsBuilder.UseSqlServer("Server=217.28.223.127,17160;User Id=user_4dc2d;Password=cE}2/5PeF*y9xC;Database=db_31dda;");
             }
         }
 

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\rave9\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\rave9\\.nuget\\packages"
+      "/Users/excalib/.dotnet/store/|arch|/|tfm|",
+      "/Users/excalib/.nuget/packages"
     ]
   }
 }

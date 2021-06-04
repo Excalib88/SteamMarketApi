@@ -28,7 +28,7 @@ namespace SteamMarketApi.Web
 
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddDbContext<DataContext>(o => o.UseNpgsql(_configuration.GetConnectionString("Db")));
+			services.AddDbContext<DataContext>(o => o.UseSqlServer(_configuration.GetConnectionString("Db")));
 			services.AddControllers();
 			services.AddSwaggerGen(c =>
 			{
